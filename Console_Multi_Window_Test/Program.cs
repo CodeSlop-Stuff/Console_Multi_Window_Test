@@ -11,6 +11,8 @@ namespace Console_Multi_Window_Test
     static void Main(string[] args)
     {
       Console.WriteLine("Slop 2");
+      System.Diagnostics.Process.Start("notepad.exe");
+      Console.ReadLine();
     }
   }
 }
